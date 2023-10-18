@@ -1,27 +1,39 @@
-# FetchData
+## Project Name - fetchData
+Implement a Responsive Data fetching Application in Angular.This is only data fetching and displying application there will be no Edit or Delete operation.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+# Development Setup
 
+## Prerequisites
+Install Node.js which includes Node Package Manager
+## Setting Up a Project
+Install the Angular CLI globally:
+
+npm install -g @angular/cli
+## Create workspace:
+
+ng new [PROJECT NAME]
+## Run the application:
+
+cd [PROJECT NAME]
+ng serve
 ## Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Features:-
+The application should include the following features:
+- A table displays data - including the Table ID, Game provider name, game type, name,
+currency.
+- If "name" (refer to api response) have more than 4 words then display only first 4 words
+and rest should be "..." dots at the end of the name.
+- Search section to filter the data in table [ NOTE: Client side filter only].
+- Error handling.
 
-## Code scaffolding
+# UI:
+- Use Card style box to create simple navigation menu.
+- Loading indicators for a smooth user experience.
+- Table with striped color and responsive design
+- Use card style box and display table on that box
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
